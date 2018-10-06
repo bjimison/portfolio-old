@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brady Jimison - Web Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- ################################### BODY ############################### -->
+
+<body>
+    <div id="landing-text">
+        <ul id="landing-nav">
+            <a href="#skills-section">
+                <li>Languages</li>
+            </a>
+            <a href="#projects">
+                <li>Projects</li>
+            </a>
+            <a href="#contact-form">
+                <li id="contact">Contact</li>
+            </a>
+        </ul>
+        <p id="landing-para">Hi, I'm Brady and I love to express my creativity by building applications and websites. After college, I played
+            soccer professionally for two years before entering the finance world. In early 2017, I learned SQL. I instantly
+            fell in love with coding and have had a singular purpose to become a Full Stack Web Developer since then. Having
+            graduated from a Full Stack Web Development Immersive course General Assembly, I now have Full Stack Development
+            skills and am looking forward to getting to work.
+        </p>
+        <a id="down-arrow-anchor" href="#skills-section">
+            <i id="down-arrow" class="far fa-arrow-alt-circle-down">
+            </i>
+        </a>
+    </div>
+
+    <div class="parallax" id="skills-section">
+        <h1 id="languages">Languages</h1>
+        <dl id="bar-graph" style="width: 600px">
+            <dt>Javascript</dt>
+            <dd>
+                <div id="data-one" class="bar" style="width: 65%">65%</div>
+            </dd>
+            <dt>Node.js</dt>
+            <dd>
+                <div id="data-two" class="bar" style="width: 60%">60%</div>
+            </dd>
+            <dt>Express.js</dt>
+            <dd>
+                <div id="data-three" class="bar" style="width: 60%">60%</div>
+            </dd>
+            <dt>React.js</dt>
+            <dd>
+                <div id="data-four" class="bar" style="width: 60%">60%</div>
+            </dd>
+            <dt>HTML</dt>
+            <dd>
+                <div id="data-five" class="bar" style="width: 70%">70%</div>
+            </dd>
+            <dt>CSS</dt>
+            <dd>
+                <div id="data-six" class="bar" style="width: 50%">50%</div>
+            </dd>
+            <dt>Python</dt>
+            <dd>
+                <div id="data-seven" class="bar" style="width: 40%">40%</div>
+            </dd>
+            <dt>Django</dt>
+            <dd>
+                <div id="data-eight" class="bar" style="width: 40%">40%</div>
+            </dd>
+            <dt>MongoDB</dt>
+            <dd>
+                <div id="data-nine" class="bar" style="width: 35%">35%</div>
+            </dd>
+            <dt>PostgreSQL</dt>
+            <dd>
+                <div id="data-ten" class="bar" style="width: 35%">35%</div>
+            </dd>
+            <dt>Git</dt>
+            <dd>
+                <div id="data-eleven" class="bar" style="width: 75%">75%</div>
+            </dd>
+        </dl>
+    </div>
+    <div class="parallax2">
+        <h1 id="projects">Projects</h1>
+        <div class="slider">
+            <!-- ##################### FASHION ########################## FASHION ###################### -->
+            <div class="slide active" id="fashioncents">
+                <div class="project-size">
+                    <img src="./images/fashioncents.png"></img>
+                    <div class="project-description">
+                        <h2>FashionCents</h2>
+                        <p>I developed FashionCents as a solo project at General Assembly. I used React.js, Node.js, Express.js,
+                            and MongoDB. The purpose of the application is to provide an online marketplace for clothing
+                            designers where they can receive upvotes on their products. To view the full project, please
+                            visit my
+                            <a href="https://github.com/bjimison/fashioncents">github.</a>
+                            <button value="fashion-desc" class="read-more" id="fashion-more">read more</button>
+                            <span id="fashion-desc">
+                                My biggest accomplishment was the type-search functionality via the input box just below the navbar. When the user types
+                                in a search filter, the value is extracted and checked to see if the database contains any
+                                posts with titles containing the same sequence of letters.
+                                <button value="fashion-desc" class="show-less">show less</button>
+                                <img src="./images/fashioncents_code_snippet.png"></img>
+                                <br>
+                                <a href="#contact-form">Let's build together.</a>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ##################### SUITEHEALTH ########################## SUITEHEALTH ###################### -->
+
+            <div class="slide" id="suitehealth">
+                <div class="project-size">
+                    <img src="./images/suitehealth.png"></img>
+                    <div class="project-description">
+                        <h2>SuiteHealth</h2>
+                        <p>SuiteHealth was a four-member group project I helped develop during my Full Stack Web Development
+                            Immersive bootcamp. We developed Suite Health using HTML, CSS, and Javascript for the front-end,
+                            Django for the back-end, and a PostgreSQL database. Suite Health is a comprehensive health application
+                            where users can discover new meal plans and workouts based on their fitness goals. See the code
+                            snippet below or view the full project in my
+                            <a href="https://github.com/bjimison/fitness-app">github</a> to see the full code base.
+                            <button value="suite-desc" class="read-more" id="suite-more">read more</button>
+                            <span id="suite-desc"> My biggest triumph during this project came by way of successfully rendering newly created workouts
+                                and meals via Ajax calls and the new ES6 Template Literals. I used form labels to extract
+                                the user input and then append that new workout or meal to the main feed.
+                                <button value="suite-desc" class="show-less">show less</button>
+                                <img src="./images/suitehealth_code_snippet.png"></img>
+                                <br>
+                                <a href="#contact-form">Let's build together.</a>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- ##################### WAYFARER ########################## WAYFARER ###################### -->
+            <div class="slide" id="wayfarer">
+                <div class="project-size">
+                    <img src="./images/Wayfarer.png"></img>
+                    <div class="project-description">
+                        <h2>Wayfarer</h2>
+                        <p>Wayfarer was a two-person project I developed with a classmate during my Full Stack Web Development
+                            Immersive bootcamp using the MERN Stack. Wayfarer is an application that lets users search for
+                            fun things to do in unfamiliar cities. To see the full code base, view the project
+                            <a href="https://github.com/bjimison/WayfarerProject">repository here.</a>
+                            <button value="way-desc" class="read-more" id="way-more">read more</button>
+                            <span id="way-desc">
+                                While I developed the back end for this project, I am most proud of building the React Carousel on the homepage of the application.
+                                The React Carousel consists of three components: Arrows.js, Imageslide.js, and Landing.js.
+                                Landing.js is the parent component and passes down the functions to change slides and decrement
+                                the carousel timer. Below is a JSX code snippet of the carousel components.
+                                <button value="way-desc" class="show-less">show less</button>
+                                <img class="wayfarer-img" src="./images/carousel.png"></img>
+                                <br>
+                                <a href="#contact-form">Let's build together.</a>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="slide-nav">
+            <a>
+                <i class="fas fa-angle-left" id="left-arrow"></i>
+            </a>
+            <!-- <a href="#slide-1">
+                <i id="fashioncents" value="fashion-more" class="fas fa-window-minimize slide-underline"></i>
+            </a>
+            <a href="#slide-2">
+                <i id="suitehealth" value="suite-more" class="fas fa-window-minimize slide-underline"></i>
+            </a>
+            <a href="#slide-3">
+                <i id="wayfarer" value="way-more" class="fas fa-window-minimize slide-underline"></i>
+            </a> -->
+            <a>
+                <i class="fas fa-angle-right" id="right-arrow"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="parallax" id="form-section">
+        <section id="contact">
+            <a id="contact-form" href=""></a>
+            <div class="wrap">
+                <h2>I look forward to hearing from you.</h2>
+                <form action="mailto:brady.t.jimison@gmail.com" method="post" enctype="text/plain" class="contact" novalidate>
+                    <div class="form-group col-third">
+                        <input type="text" name="name" placeholder="Full Name*">
+                        <p class="error-message">Please enter your full name.</p>
+                    </div>
+                    <div class="form-group col-third">
+                        <input type="email" placeholder="Email*" name="email">
+                        <p class="error-message">Please enter an email address.</p>
+                    </div>
+                    <div class="form-group col-third">
+                        <input type="text" placeholder="Subject*">
+                        <p class="error-message">Please enter a subject.</p>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="comment" id="" cols="30" rows="10" placeholder="Message*"></textarea>
+                        <p class="error-message">Please enter a message.</p>
+                    </div>
+                    <button value="Send Email" type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <ul id="footer-nav">
+        <a href="#landing-text">
+            <i id="up-arrow" class="far fa-arrow-alt-circle-up">
+            </i>
+        </a>
+        <div id="icons">
+            <a href="https://github.com/bjimison">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://twitter.com/brady_jimison">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+    </ul>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
